@@ -1,6 +1,6 @@
 ---
 "genebuild-annotation":
-    version: 3.9
+    version: 4
     deps:
         - "ensembl/external/exonerate09"
         - "ensembl/external/exonerate22"
@@ -25,8 +25,10 @@
         - "ensembl/external/repeatscout"
         - "ensembl/external/repeatmodeler"
         - "ensembl/external/repeatmasker"
-        - "ensembl/moonshine/tcdust"
-        - "ensembl/external/sratoolkit"
         - "ensembl/ensembl/aspera-client"
+        - "ensembl/external/sratoolkit@2.11.0"
         - "ensembl/ensembl/Red"
         - "ensembl/ensembl/minimap2"
+        - "ensembl/ensembl/scallop"
+        - "ensembl/ensembl/star-aligner"
+        - "ensembl/ensembl/stringtie"
